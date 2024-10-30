@@ -10,7 +10,7 @@ const genBaseUrl = (mode) => {
     }
     return `/${name}/`
   }
-  return "/"
+  return "./"
 }
 
 export default defineConfig(({ mode }) => {
